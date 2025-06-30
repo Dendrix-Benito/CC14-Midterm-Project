@@ -1,0 +1,141 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.menu-bar {
+  background-color: gray;
+  padding: 10px 30px;
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.menu-bar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.menu-left a {
+  display: inline-block;
+}
+
+.menu-right a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 60px;
+}
+
+.home-icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+.hero {
+  background-image: url('sky.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  margin-top: 90px;
+  border-radius: 0 0 30px 30px;
+}
+
+.hero h1 {
+  font-size: 100px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 40px;
+}
+
+.highlight {
+  color: #ccc;
+}
+
+.works {
+  padding: 40px 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.work-img {
+  width: 500px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.thumb {
+  width: 150px;
+  height: 150px;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.grad-img {
+  width: 500px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.text-box {
+  max-width: 400px;
+}
+
+.text-box h3 {
+  margin-top: 0;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border-radius: 30px 30px 0 0;
+}
+
+.building-img img {
+  width: 1200px;
+  border-radius: 10px;
+}
+
+.contact-text {
+  max-width: 300px;
+}
